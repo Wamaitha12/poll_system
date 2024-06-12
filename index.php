@@ -18,7 +18,6 @@ $result = $conn->query("SELECT * FROM polls ORDER BY created_at DESC");
         <nav>
             <a href="index.php">Home</a>
             <a href="create_poll.php">Create Poll</a>
-            <a href="create_poll.php">Create Poll</a>
         </nav>
     </header>
     <div class="container">

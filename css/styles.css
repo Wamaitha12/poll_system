@@ -1,9 +1,9 @@
 /* styles.css */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    margin: 0;
-    padding: 0;
+    background-color: #680747;
+    margin: 0px;
+    padding: 4px;
     color: #333;
 }
 
@@ -14,15 +14,15 @@ body {
 }
 
 header {
-    background: #333;
-    color: #fff;
-    padding: 20px 0;
+    background: #f70776;
+    color: #141010;
+    padding: 20px 10px;
     text-align: center;
     margin-bottom: 20px;
 }
 
 header a {
-    color: #fff;
+    color: #141010;
     text-decoration: none;
     margin: 0 10px;
 }
@@ -32,11 +32,12 @@ header nav {
 }
 
 form {
-    background: #fff;
+    background: #c3195d;
     padding: 20px;
-    margin: 20px 0;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 40px 100px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(86, 42, 158, 0.1);
+    width:70%;
 }
 
 form label {
@@ -46,30 +47,32 @@ form label {
 }
 
 form input[type="text"] {
-    width: 100%;
+    width: 80%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #f70776;
     border-radius: 5px;
 }
 
 form button {
+    margin-top: 20px;
+    margin-bottom: 10px;
     display: inline-block;
     padding: 10px 20px;
-    background: #333;
-    color: #fff;
+    background: #680747;
+    color: #1caf83;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 form button:hover {
-    background: #555;
+    background: #000000;
 }
 
 ul {
     list-style: none;
-    padding: 0;
+    padding: 10px;
 }
 
 ul li {
@@ -94,7 +97,7 @@ ul li a:hover {
 footer {
     text-align: center;
     padding: 20px;
-    background: #333;
+    background: #f70776;
     color: #fff;
     position: fixed;
     bottom: 0;
